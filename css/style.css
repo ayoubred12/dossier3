@@ -1,82 +1,78 @@
-#menu-top{
-    display:flex;
-
-    list-style: none;
-    
+p {
+  color: #818488;
 }
 
-.li{
-    padding-left: 10px;
-    border: 10rem;
-}
-
-
-#icon-menu{
-    
-}
-
-#profile img{
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-   
-}
-
-.texto{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16pt;
-    color: brown
-;
-}
-
-.table1{
-    border: 1px;
-    border-color: brown;
-    
-}
-.table1 th{
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.Form-text{
-    padding-top: 100px;
-}
-
-
-.about p{
-    width: 50%;
-}
-
-.row{
-   
+#menu-top {
   display: flex;
-
+  list-style: none;
 }
 
-.column{
-    flex: 33.33%;
-    padding: 5px;
-}
-.column img{
-    width: 80%;
-}
-input,textarea{
-    margin-top: 10px;
-    width: 30%;
-    
+.li {
+  padding-left: 10px;
+  border: 10rem;
 }
 
-footer{
-    width: 100%;
-    background-color: brown;
-    height: 100px;
-    padding: 20px;
-    color: aliceblue;
-    
+#profile img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
 }
-footer a{
-    color: aliceblue;
-    margin-left: 10px;
-    text-decoration: none;
+
+.texto {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16pt;
+  color: brown;
+}
+
+.table1 {
+  border: 1px;
+  border-color: brown;
+}
+
+.table1 th {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Form-text {
+  padding-top: 100px;
+}
+
+.about p {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  background-color: #00e904;
+  border: 10px solid #cfea00;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column img {
+  width: 80%;
+}
+
+input, textarea {
+  margin-top: 10px;
+  width: 30%;
+}
+
+footer {
+  background-color: #E90064;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  color: aliceblue;
+  padding-top: 40px;
+}
+
+footer a {
+  color: aliceblue;
+  margin-left: 10px;
+  text-decoration: none;
 }
