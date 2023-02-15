@@ -8,7 +8,109 @@ $textColor: #818488;
     background-color: $BG;
 }
 
+@mixin hover-state{
+    transition: height 0.4s;
+    transition-timing-function: ease-in-out;
+    
+    
+}
 
+@mixin float-prop{
+    
+    display: flex;
+    
+    
+    color: fff;
+    font-weight: 600;
+   
+    margin: 10px;
+    gap: 40px;
+}
+
+#boxes{
+   
+   padding: 20px;
+   @include float-prop;
+   font-family: 'Inter', sans-serif;
+   
+   
+
+}
+
+#boxes p{
+    font-weight: 300;
+    color: aliceblue;
+    line-height: 1.4em;
+    font-size: 11pt;
+
+}
+
+#boxes #button-box :hover{
+    display: block;
+
+}
+
+
+
+
+
+
+.boxes1, .boxes2, .boxes3, .boxes4{
+    
+    padding-left: 20px;
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    color: aliceblue;
+    @include hover-state;
+
+
+}
+.boxes1{
+    background-color: #060047;
+}
+.boxes2{
+    background-color: #B3005E;
+}
+.boxes3{
+    background-color: #E90064;
+}
+.boxes4{
+    background-color: #FF5F9E;
+}
+
+.boxes1:hover{
+ height: 240px;
+}
+
+.boxes2:hover{
+    height: 240px;
+   }
+
+   .boxes3:hover{
+    height: 240px;
+   }
+
+   .boxes4:hover{
+    height: 240px;
+   }
+
+#button{
+    background-color:$primaryColor;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+   }
+
+ 
 
 
 
@@ -31,9 +133,7 @@ p{
 }
 
 
-#icon-menu{
-    
-}
+
 
 #profile img{
     border-radius: 100%;
